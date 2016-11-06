@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 tags = Tag.create([{name: 'Ruby'}, {name: 'Rails'}])
 Post.create(name: 'Hello world!', content: 'Lorem ipsum dolor sit amet.', tags: tags)
+
+User.create!(name: 'Luiz Almeida', email: 'luizhrqas@gmail.com', password: 'relogio123', password_confirmation: 'relogio123')
